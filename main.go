@@ -19,7 +19,7 @@ func main() {
 	// ask for iterations
 	fmt.Scanf("%d ", &totalIterations)
 
-	for i := 0; i < totalIterations; i++ {
+	for i := 0; i <= totalIterations; i++ {
 		e += 1 / float64(factorial(i))
 	}
 
